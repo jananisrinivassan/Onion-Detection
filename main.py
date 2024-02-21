@@ -3,6 +3,7 @@ import os
 import numpy as np
 
 def detect_onion_color(image):
+    
     # Convert image to HSV color space
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
